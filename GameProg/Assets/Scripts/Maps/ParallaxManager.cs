@@ -4,37 +4,21 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    [System.Serializable]
-    public class ParallaxLayer
+    public Transform cam;
+    public float parallaxFactor = 0.1f; // Very small
+
+    private Vector3 lastCamPos;
+
+    void Start()
     {
-        public Transform layerTransform;
-        public float parallaxFactor = 0.5f;
+        if (cam == null) cam = Camera.main.transform;
+        lastCamPos = cam.position;
     }
 
-    public ParallaxLayer[] layers;
-
-    private Transform cam;
-    private Vector3 previousCamPosition;
-
-    private void Start()
+    void LateUpdate()
     {
-        cam = Camera.main.transform; // Cinemachine's main camera still works here
-        previousCamPosition = cam.position;
-    }
-
-    private void LateUpdate()
-    {
-        Vector3 delta = cam.position - previousCamPosition;
-
-        foreach (var layer in layers)
-        {
-            if (layer.layerTransform != null)
-            {
-                Vector3 move = new Vector3(delta.x * layer.parallaxFactor, delta.y * layer.parallaxFactor, 0);
-                layer.layerTransform.position += move;
-            }
-        }
-
-        previousCamPosition = cam.position;
+        Vector3 delta = cam.position - lastCamPos;
+        transform.position += new Vector3(delta.x * parallaxFactor, delta.y * parallaxFactor, 0);
+        lastCamPos = cam.position;
     }
 }
