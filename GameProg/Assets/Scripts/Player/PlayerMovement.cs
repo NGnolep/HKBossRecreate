@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     private bool facingRight = true;
     private bool wasGrounded;
     private bool canJump = true;
-    public float jumpCooldown = 2f;
+    public float jumpCooldown = 2.5f;
 
     private bool isTouchingWall;
     void Start()
@@ -145,7 +145,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Object Slash = Instantiate(slashToSpawn, slashPoint.position, rotation);
-        Destroy(Slash, 0.10f);
+        Destroy(Slash, 0.06f);
         yield return new WaitForSeconds(attackCooldown);
         isAttacking = false;
     }
