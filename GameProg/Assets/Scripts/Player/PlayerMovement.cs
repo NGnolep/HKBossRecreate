@@ -27,10 +27,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
-    private bool isGrounded;
+    [SerializeField] private bool isGrounded;
     private float moveInput;
     private bool facingRight = true;
-    private bool wasGrounded;
+    [SerializeField] private bool wasGrounded;
     private bool canJump = true;
     public float jumpCooldown = 2.5f;
 
@@ -58,29 +58,33 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGrounded && canJump)
         {
+            canJump = false;
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            StartCoroutine(JumpCooldownRoutine());
             animator.SetTrigger("Jump");
+            StartCoroutine(JumpCooldownRoutine());
         }
 
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         if (!wasGrounded && isGrounded)
         {
+            Debug.Log("Is Grounded =" + isGrounded);
+            Debug.Log("Was Grounded =" + wasGrounded);
             animator.SetTrigger("Land");
+            
         }
 
         float animSpeed = isGrounded ? Mathf.Abs(moveInput) : 0f;
+        wasGrounded = isGrounded;
         animator.SetFloat("Speed", animSpeed);
         animator.SetBool("IsGrounded", isGrounded);
         animator.SetFloat("VerticalVelocity", rb.velocity.y);
 
-        wasGrounded = isGrounded;
     }
 
     void FixedUpdate()
     {
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
     void Flip()
@@ -94,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
         canJump = false;
         yield return new WaitForSeconds(jumpCooldown);
         canJump = true;
+        animator.ResetTrigger("Jump");
     }
     IEnumerator Attack()
     {
