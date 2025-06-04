@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private bool wasGrounded;
     private bool canJump = true;
     public float jumpCooldown = 2.5f;
+    public bool canMove = true;
 
     private bool isTouchingWall;
     void Start()
@@ -44,6 +45,16 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!canMove)
+        {
+            moveInput = 0f;
+            animator.ResetTrigger("Jump");
+            animator.ResetTrigger("Attack");
+            animator.SetFloat("Speed", 0f);
+            Debug.Log("cant move");
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
             StartCoroutine(Attack());
@@ -61,14 +72,13 @@ public class PlayerMovement : MonoBehaviour
             canJump = false;
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             animator.SetTrigger("Jump");
+            Debug.Log("Jumping");
             StartCoroutine(JumpCooldownRoutine());
         }
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         if (!wasGrounded && isGrounded)
         {
-            Debug.Log("Is Grounded =" + isGrounded);
-            Debug.Log("Was Grounded =" + wasGrounded);
             animator.SetTrigger("Land");
             
         }
@@ -83,8 +93,14 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
-
+        if (canMove)
+        {
+            rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;  // stop all movement
+        }
     }
 
     void Flip()
@@ -150,7 +166,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Object Slash = Instantiate(slashToSpawn, slashPoint.position, rotation);
-        Destroy(Slash, 0.06f);
+        Destroy(Slash, 0.025f);
         yield return new WaitForSeconds(attackCooldown);
         isAttacking = false;
     }
