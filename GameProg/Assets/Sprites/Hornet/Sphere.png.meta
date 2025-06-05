@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: 00cc6eca30ef5294399add9368207139
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 4
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sphere_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380
+        width: 239
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b697246177ebf7c40a640e6341b29eb4
+      internalID: 2014785836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1378
+        width: 239
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d5662dc42b8e143a0cde970c683ec1
+      internalID: 2011775054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1376
+        width: 239
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cea27672ed8764a992bdd264a6373a
+      internalID: 1783241432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_3
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1373
+        width: 239
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e762e7340e05a419cb39bfb44b784f
+      internalID: -953321065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_4
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1374
+        width: 239
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ce926f666a92040807752f97c1c298
+      internalID: 1364521379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_5
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1374
+        width: 239
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16596ee4cc337d340bd1e8914b1113bb
+      internalID: -1254482611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_6
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1378
+        width: 239
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c86dd70f79c5e846856f42480b548b8
+      internalID: 753460398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_7
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1378
+        width: 239
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ab3477040c5014b98d9079e16014ce
+      internalID: 1624902322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_8
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1379
+        width: 239
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5806afcdd8268284da3680bb91565703
+      internalID: -1195650652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_9
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1379
+        width: 239
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ad2ecee8d3f13479c8ecc0ea083635
+      internalID: 879702226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1154
+        width: 239
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc39e77fc544f48b3117b09337af95
+      internalID: 1492423410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1155
+        width: 239
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da27e58bf9ef32b4c8c4c5c3eafe188d
+      internalID: 159546756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_12
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1153
+        width: 225
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a18871072ce3a4083fc5af6fa810f5
+      internalID: 954499822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_13
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1151
+        width: 225
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf104cdcab29ec449382f325a253024
+      internalID: 1974957106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_14
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1150
+        width: 228
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ca1bbd49a8b0742985b9d580102885
+      internalID: 1797253374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_15
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1150
+        width: 237
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d50614cb6362949a683d3839868bf6
+      internalID: 2106832578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_16
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1150
+        width: 239
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df195c93460b7b344ab939e5e8fdcc93
+      internalID: 973528343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 954
+        width: 139
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffce59b8e1bcfbd48829935dc8817884
+      internalID: 1836280705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 953
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ba77b62989f2e40a7e39ea00315b87
+      internalID: -1546918541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_20
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 952
+        width: 138
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b689b3b4bc2bdae47a39a2b519bbf1d5
+      internalID: -485729082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 949
+        width: 140
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b330f71ebe99afd4096c936a7d7dbb26
+      internalID: 786984659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_22
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 951
+        width: 153
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba44fb118df55c4799d3eb9e309796e
+      internalID: 973318040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_23
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 951
+        width: 139
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221edc033a0c8854eb1b9242dc4aa9d7
+      internalID: -1355326350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_24
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 951
+        width: 136
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0fb86872497974887f6adbd4acec14
+      internalID: -1897983358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_25
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 952
+        width: 161
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8693812ec8024f84f9d07747ff5bb65c
+      internalID: -1680818160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_26
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 952
+        width: 134
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a60eb276ec26d44a831f441e34e8ea2
+      internalID: -2093995835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 387
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbec3820ba31a7e4ea4c3d0533b2ae6a
+      internalID: -350562462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_28
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 521
+        width: 499
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbe1fbaaa26d0f45af71b6fc7c9d950
+      internalID: -852713621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_29
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 463
+        width: 387
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfca209d329f194d91d75d341c6b135
+      internalID: -448448743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_30
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 465
+        width: 426
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd971c443c24e4c4a9f0db8337816ab3
+      internalID: 1149406925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_31
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 469
+        width: 402
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2872f0569e1a3468c16ca9dcd6593d
+      internalID: 791010185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_34
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 953
+        width: 239
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13edd9055d93e2548b9a3aeab7c61d2c
+      internalID: -1767874677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_35
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 926
+        width: 239
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc54a8d5dd3a8f4891fd769952b769c
+      internalID: -1660328891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 439
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d7421c020ac444fa0d8ef49ba171f0
+      internalID: -2115325226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_38
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 33
+        width: 376
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ae290dc1f116849b21fb8945608310
+      internalID: 1163960131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_40
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2
+        width: 357
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18822f7c77d13c94a8e265ee340b5499
+      internalID: 523679003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sphere_42
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 2
+        width: 407
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aad7e646cee68e478cfb27afc8f78ae
+      internalID: -1789859002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sphere_0: 2014785836
+      Sphere_1: 2011775054
+      Sphere_10: 1492423410
+      Sphere_11: 159546756
+      Sphere_12: 954499822
+      Sphere_13: 1974957106
+      Sphere_14: 1797253374
+      Sphere_15: 2106832578
+      Sphere_16: 973528343
+      Sphere_17: -234322374
+      Sphere_18: 1836280705
+      Sphere_19: -1546918541
+      Sphere_2: 1783241432
+      Sphere_20: -485729082
+      Sphere_21: 786984659
+      Sphere_22: 973318040
+      Sphere_23: -1355326350
+      Sphere_24: -1897983358
+      Sphere_25: -1680818160
+      Sphere_26: -2093995835
+      Sphere_27: -350562462
+      Sphere_28: -852713621
+      Sphere_29: -448448743
+      Sphere_3: -953321065
+      Sphere_30: 1149406925
+      Sphere_31: 791010185
+      Sphere_32: -1572149885
+      Sphere_33: 1443199434
+      Sphere_34: -1767874677
+      Sphere_35: -1660328891
+      Sphere_36: -2115325226
+      Sphere_37: 876700584
+      Sphere_38: 1163960131
+      Sphere_39: 1348693656
+      Sphere_4: 1364521379
+      Sphere_40: 523679003
+      Sphere_41: 1173701783
+      Sphere_42: -1789859002
+      Sphere_43: -18139347
+      Sphere_5: -1254482611
+      Sphere_6: 753460398
+      Sphere_7: 1624902322
+      Sphere_8: -1195650652
+      Sphere_9: 879702226
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

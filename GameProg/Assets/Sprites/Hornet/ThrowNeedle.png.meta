@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: e1be336f6e7a3a74ead9ac6cb2eec603
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 4
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThrowNeedle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1018
+        width: 298
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abad89cbeeedfa34c86153e8c833c42e
+      internalID: -1847795604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1016
+        width: 299
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faa3d3cdac6ab44283f09294359fb62
+      internalID: -1231191645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1016
+        width: 299
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428f53794b6ebe2428027bf4bac89fbc
+      internalID: 1599471697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_3
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1019
+        width: 271
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355061854affe594b9b5bee5b7d8affd
+      internalID: -658200441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_4
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1019
+        width: 262
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a6b7a4a60589a4da71e86a43597d24
+      internalID: 1549456916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_5
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1016
+        width: 265
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43809cf176b571747878fa2ce6a8e400
+      internalID: 69988110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_6
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1018
+        width: 287
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5031da6c3fdab46aec9c0e796dd502
+      internalID: 1322621157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_7
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1018
+        width: 270
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ecc2f9439ddcf4cadb92337eeaa6c2
+      internalID: -175650409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 299
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3049762d6ab372459a5b541d033f6a1
+      internalID: 1820849987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 798
+        width: 299
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d5a8c6f195e0647a7396ed20426ffb
+      internalID: -824190732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_16
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 596
+        width: 152
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19acee017a4d48a458bd852436f8999c
+      internalID: -1875381080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_17
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 599
+        width: 161
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741e8dc670d495e428220a49912aa4d4
+      internalID: 1248313871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 593
+        width: 155
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f26604d73de3b44b32a973b061c07a
+      internalID: 1579577260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 590
+        width: 158
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4295acc1359b0e848893f324ac137f3f
+      internalID: -1626290179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_20
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 594
+        width: 153
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36ed0a369835314b8579da3dc971ab2
+      internalID: -1030834549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_21
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 594
+        width: 157
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fec3439b5bd3f4e9b1f7cf7503912e
+      internalID: 1496933773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 249
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e970aedf3699994b8c65e173f978eea
+      internalID: 2007290948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 377
+        width: 227
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527d8f4475cb173429bd0b3f7e6e42f9
+      internalID: 677753563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_24
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 377
+        width: 225
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7355321a4ba10714eb86bbf8b6cae66e
+      internalID: 2069109890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_25
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 377
+        width: 240
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbe463a319b10145965dcd2301fca7c
+      internalID: 594115290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 377
+        width: 244
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67302beae61673e4ab8bca48f58fac40
+      internalID: -737289795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_27
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 318
+        width: 284
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742c282c54685c74ba1b9ad1cad1d7e6
+      internalID: -108201307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_28
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 318
+        width: 300
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4409dd28bc596240a52e5035589370f
+      internalID: -161922682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_29
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 318
+        width: 256
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49305724cb5c4794b8399259ed1c998a
+      internalID: -2017035927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_31
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 375
+        width: 238
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc7878cfb5b8c848815208973896916
+      internalID: 158312530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 253
+        width: 567
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbd7ed45f528d542b85c98e79b4847c
+      internalID: 1648671794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_33
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 253
+        width: 384
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c745a0dd4d02756468a94ef4b80e8274
+      internalID: -1104207443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 429
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef948e62dd865694c9cd49c78846f75c
+      internalID: 1947002255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_35
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 258
+        width: 299
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383ef97c4e4e6b4cb807bfa1097cc39
+      internalID: -1198457773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_36
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 200
+        width: 456
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9738b56774377a43b06ff4c4f6cdc5b
+      internalID: -492579787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_37
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 193
+        width: 329
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f702647c13d32ff49a9268a982a00079
+      internalID: -149102465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_39
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 299
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d3ad3cfbaafcc48b5b312b3667716d
+      internalID: -469658822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 339
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84994ab98022c542b84d880c3ce827a
+      internalID: 420932336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThrowNeedle_42
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 0
+        width: 330
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68ca794ab0f5d144aa1acd79745bdc6
+      internalID: 1389319944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ThrowNeedle_0: -1847795604
+      ThrowNeedle_1: -1231191645
+      ThrowNeedle_10: -107033305
+      ThrowNeedle_11: -125797940
+      ThrowNeedle_12: -630608473
+      ThrowNeedle_13: -462572312
+      ThrowNeedle_14: 119540963
+      ThrowNeedle_15: 1912450384
+      ThrowNeedle_16: -1875381080
+      ThrowNeedle_17: 1248313871
+      ThrowNeedle_18: 1579577260
+      ThrowNeedle_19: -1626290179
+      ThrowNeedle_2: 1599471697
+      ThrowNeedle_20: -1030834549
+      ThrowNeedle_21: 1496933773
+      ThrowNeedle_22: 2007290948
+      ThrowNeedle_23: 677753563
+      ThrowNeedle_24: 2069109890
+      ThrowNeedle_25: 594115290
+      ThrowNeedle_26: -737289795
+      ThrowNeedle_27: -108201307
+      ThrowNeedle_28: -161922682
+      ThrowNeedle_29: -2017035927
+      ThrowNeedle_3: -658200441
+      ThrowNeedle_30: 1484462791
+      ThrowNeedle_31: 158312530
+      ThrowNeedle_32: 1648671794
+      ThrowNeedle_33: -1104207443
+      ThrowNeedle_34: 1947002255
+      ThrowNeedle_35: -1198457773
+      ThrowNeedle_36: -492579787
+      ThrowNeedle_37: -149102465
+      ThrowNeedle_38: -775048629
+      ThrowNeedle_39: -469658822
+      ThrowNeedle_4: 1549456916
+      ThrowNeedle_40: 420932336
+      ThrowNeedle_41: -824462817
+      ThrowNeedle_42: 1389319944
+      ThrowNeedle_5: 69988110
+      ThrowNeedle_6: 1322621157
+      ThrowNeedle_7: -175650409
+      ThrowNeedle_8: 1820849987
+      ThrowNeedle_9: -824190732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

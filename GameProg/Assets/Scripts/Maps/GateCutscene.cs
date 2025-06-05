@@ -38,14 +38,12 @@ public class GateCutscene : MonoBehaviour
         isCutscenePlaying = true;
 
         player.canMove = false;
-        Debug.Log("Player cant move");
 
         // hornetScreech.Play();
 
         yield return new WaitForSeconds(screechDuration);
 
         player.canMove = true;
-        Debug.Log("Player can move");
     }
 
     

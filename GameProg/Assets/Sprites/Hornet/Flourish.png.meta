@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: 93f4c7d396273bc49834bbe4fe6396b7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flourish_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 627.3334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f10f5b9299f1c4990a574616a0f0b5
+      internalID: -597898523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 627.3334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dcf3702283823448c4743942d2a80e
+      internalID: -1014024230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_2
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 627.3334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2f39a652a950f45b5c4bb842b10de4
+      internalID: 679277538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_3
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 627.3334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aef84417ed73743afb0759ad62ee1f
+      internalID: 904883174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_4
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 627.3334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b98902942c05ab489c3efea8b2821d8
+      internalID: -1404444210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 627.3334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cb872be8ce7144a8ea8f06088459eb
+      internalID: 192718476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314.33334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1129136d52136fc42ad73a9ead624dce
+      internalID: -2087184216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_7
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 314.33334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2222a39d1d316c7448fbc34740552a8d
+      internalID: -242538517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_8
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 314.33334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d91dd3d4dcab545950216eea98f117
+      internalID: -196471766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_9
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 314.33334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c683febdcc8c8b749af6c397cc28f9e3
+      internalID: -1052365623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_10
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 314.33334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855b5db90b603f9489046dfc6e330424
+      internalID: 1828984342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333435
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989d4f83e4ebfb14f8f54d15d484bff6
+      internalID: -490839683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_15
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1.3333435
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be4e968e56718a48b1018b9e509a59d
+      internalID: -555524789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_16
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1.3333435
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f441395a2627e349a725dd199db76e4
+      internalID: 765627175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_17
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1.3333435
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e158854edeac72c4b9be26abca73489a
+      internalID: -462910648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_11
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 314.33334
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df40ef9bf6e79844f91c37ec9f78e128
+      internalID: -1899950088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1.3333435
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337efc3f844146d4f98e47de893e6b28
+      internalID: 1907814366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flourish_14
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1.3333435
+        width: 362.16666
+        height: 313.66666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695bb0f4e46750048a248c321182cadb
+      internalID: -1507004988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flourish_0: -597898523
+      Flourish_1: -1014024230
+      Flourish_10: 1828984342
+      Flourish_11: -1899950088
+      Flourish_12: -490839683
+      Flourish_13: 1907814366
+      Flourish_14: -1507004988
+      Flourish_15: -555524789
+      Flourish_16: 765627175
+      Flourish_17: -462910648
+      Flourish_2: 679277538
+      Flourish_3: 904883174
+      Flourish_4: -1404444210
+      Flourish_5: 192718476
+      Flourish_6: -2087184216
+      Flourish_7: -242538517
+      Flourish_8: -196471766
+      Flourish_9: -1052365623
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

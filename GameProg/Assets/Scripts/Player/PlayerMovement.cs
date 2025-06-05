@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.FilePathAttribute;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -51,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
             animator.ResetTrigger("Jump");
             animator.ResetTrigger("Attack");
             animator.SetFloat("Speed", 0f);
-            Debug.Log("cant move");
             return;
         }
 
@@ -166,7 +164,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Object Slash = Instantiate(slashToSpawn, slashPoint.position, rotation);
-        Destroy(Slash, 0.025f);
+        Destroy(Slash, 0.04f);
         yield return new WaitForSeconds(attackCooldown);
         isAttacking = false;
     }
