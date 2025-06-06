@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHurtBox : MonoBehaviour
+public class EnemyChaserHurtBox : MonoBehaviour
 {
-    public Aspid aspid;
-    public int hp = 3;
+    public AspidChaser aspid;
+    public int hp = 2;
     public float knockbackForce = 10f;
     public float knockbackDuration = 0.05f;
     public void Start()
     {
         if (aspid == null)
-            aspid = GetComponent<Aspid>();
+            aspid = GetComponent<AspidChaser>();
     }
     public void TakeDamage(int amount, Vector2 attackerPosition)
     {
@@ -29,6 +29,7 @@ public class EnemyHurtBox : MonoBehaviour
             aspid.Die();
         }
     }
+
     private IEnumerator StopKnockbackAfterDelay(Rigidbody2D rb)
     {
         yield return new WaitForSeconds(knockbackDuration);

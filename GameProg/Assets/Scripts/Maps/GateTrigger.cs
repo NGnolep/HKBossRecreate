@@ -11,6 +11,7 @@ public class GateTrigger : MonoBehaviour
     public CinemachineVirtualCamera cameraToDeactivate;
 
     public ScreenFadeOut blackScreenFade;
+    public GameObject spawner;
     private bool triggered = false;
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -22,6 +23,7 @@ public class GateTrigger : MonoBehaviour
             cameraToDeactivate.Priority = 5;
             gateAnimator.SetTrigger("Arise");
             blackScreenFade.FadeOut();
+            spawner.SetActive(true);
             triggered = true;
         }
     }

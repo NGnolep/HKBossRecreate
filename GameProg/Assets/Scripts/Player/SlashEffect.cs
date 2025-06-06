@@ -10,12 +10,30 @@ public class SlashEffect : MonoBehaviour
         {
             if (collision.TryGetComponent<EnemyHurtBox>(out var enemy))
             {
-                enemy.TakeDamage(1);
+                enemy.TakeDamage(1, transform.position);
 
                 if (isDownwardSlash && PlayerMovement.Instance != null && !PlayerMovement.Instance.IsGrounded())
                 {
                     PlayerMovement.Instance.Pogo();
                 }
             }
+            if (collision.TryGetComponent<EnemyPrimalHurtBox>(out var enemy2))
+            {
+                enemy2.TakeDamage(1, transform.position);
+
+                if (isDownwardSlash && PlayerMovement.Instance != null && !PlayerMovement.Instance.IsGrounded())
+                {
+                    PlayerMovement.Instance.Pogo();
+                }
+            }
+            if (collision.TryGetComponent<EnemyChaserHurtBox>(out var enemy3))
+            {
+                enemy3.TakeDamage(1, transform.position);
+
+                if (isDownwardSlash && PlayerMovement.Instance != null && !PlayerMovement.Instance.IsGrounded())
+                {
+                    PlayerMovement.Instance.Pogo();
+            }
         }
+    }
 }

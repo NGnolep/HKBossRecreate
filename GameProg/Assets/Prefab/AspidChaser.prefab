@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 8787372351638466802}
   - component: {fileID: 1016149517519150424}
   - component: {fileID: 6332000366727551648}
-  - component: {fileID: 6809498652193302375}
   - component: {fileID: 1102180009577829618}
-  - component: {fileID: 5919102168146589107}
   - component: {fileID: -5951602319972387327}
+  - component: {fileID: -3284656136031602307}
+  - component: {fileID: 5840125936965398052}
   m_Layer: 0
-  m_Name: AspidHunter
+  m_Name: AspidChaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37,7 +37,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6999913811239379900}
-  - {fileID: 7563342645868049119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8787372351638466802
@@ -148,22 +147,6 @@ CircleCollider2D:
   m_Offset: {x: -0.019777542, y: -0.0049130186}
   serializedVersion: 2
   m_Radius: 0.5489387
---- !u!114 &6809498652193302375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3282574836948149858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b21d266738643d4cae6b3b14a185a9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aspid: {fileID: 0}
-  hp: 3
-  knockbackForce: 15
-  knockbackDuration: 0.1
 --- !u!50 &1102180009577829618
 Rigidbody2D:
   serializedVersion: 4
@@ -191,23 +174,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5919102168146589107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3282574836948149858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b69db5265d57f24d8970ab0385a9518, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  detectionRange: 30
-  attackRange: 5
-  attackCooldown: 2
-  bulletPrefab: {fileID: 3963247221781162203, guid: 5ffcb32192e8420419fcb862186b9984, type: 3}
 --- !u!114 &-5951602319972387327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,37 +187,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 1
---- !u!1 &4200684350986013471
-GameObject:
+--- !u!114 &-3284656136031602307
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7563342645868049119}
-  m_Layer: 0
-  m_Name: BulletSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7563342645868049119
-Transform:
+  m_GameObject: {fileID: 3282574836948149858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a96c0cdce73cc948a8cc29c24c2c103, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  detectionRange: 30
+--- !u!114 &5840125936965398052
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4200684350986013471}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.16, y: -0.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1010223413681426704}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 3282574836948149858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5017f06d3ad7ba04b8e1b5a05e0594ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aspid: {fileID: 0}
+  hp: 2
+  knockbackForce: 15
+  knockbackDuration: 0.1
 --- !u!1 &8921928636541767327
 GameObject:
   m_ObjectHideFlags: 0
