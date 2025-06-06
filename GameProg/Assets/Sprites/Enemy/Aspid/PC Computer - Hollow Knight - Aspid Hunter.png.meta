@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: da990c85b95f84e418f0bbe6137ca2e5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 564
+        width: 130
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02813f494087e748a79693f9b1cd1f5
+      internalID: 2015463697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 564
+        width: 131
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0035ae82682ba8945b921dff344b08e7
+      internalID: 237770748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 564
+        width: 134
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafeb47ff39bd2543af5607741ed1a4e
+      internalID: 127844653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_3
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 563
+        width: 131
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3a471d2fabadd4c97aa8dcaaaf5111
+      internalID: -1596162711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_4
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 564
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9990e472a02795145bc78521fe6ab419
+      internalID: -451856559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_5
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 562
+        width: 135
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e124856ff968de149a32b5b777eb4721
+      internalID: 90416139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 419
+        width: 148
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b0c3919cf5acd46b20a5fd1c013719
+      internalID: 896664176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 420
+        width: 158
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d72fe62165635469e7bc63e1fad8a8
+      internalID: 1295463065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_12
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 282
+        width: 129
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532eb3801c72e704795211810d562f99
+      internalID: 1164408107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 282
+        width: 121
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1402474b585839a42a2ec686ca16fa0d
+      internalID: -365333458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 280
+        width: 120
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c6a54c8d5f9b34589f516605569bf8
+      internalID: 1306499060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_15
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 279
+        width: 129
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0976be6acbf384e8d2413217a6de43
+      internalID: 1713149255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_16
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 281
+        width: 117
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815138079d867df46b2c660f2dc0911e
+      internalID: -998153779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 281
+        width: 116
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2aa27b5e60dbc48ae8a59c72fa3f16
+      internalID: 1860040999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 159
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fb4bb883cc7574cb97179b862f2774
+      internalID: 1210222299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 160
+        width: 136
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a6c503194929d4181a9a5f5954c375
+      internalID: 1847326292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 161
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338fac4aa90a98b489ac090c29294fe9
+      internalID: -371299217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_21
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 163
+        width: 150
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7b6ae69a278974ea836cc6ebd8ec17
+      internalID: 1710580042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_22
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 164
+        width: 142
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac638744fa97d0479c0cef07a9656b0
+      internalID: 369176103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_23
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 160
+        width: 117
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0288fab8a5c23c34e829c351fafafa43
+      internalID: -402856797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 134
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65cf63c5735a55418c68922be393c23
+      internalID: 252289282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_25
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 12
+        width: 132
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966c633dbb69f19499fc2e7547e91acc
+      internalID: 1321180215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_26
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 6
+        width: 147
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac2ecf252aae984184f650fba403624
+      internalID: 541004021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_27
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 6
+        width: 146
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922ac568ae077024cb0e3c410a64c231
+      internalID: -1874904797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_28
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 5
+        width: 126
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b03616f817b934797917b23c89cc18
+      internalID: 2139086437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Hollow Knight - Aspid Hunter_29
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 7
+        width: 107
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cffafbe36a19dd4197591702665dbb2
+      internalID: -94986015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Hollow Knight - Aspid Hunter_0: 2015463697
+      PC Computer - Hollow Knight - Aspid Hunter_1: 237770748
+      PC Computer - Hollow Knight - Aspid Hunter_10: -1915945376
+      PC Computer - Hollow Knight - Aspid Hunter_11: 75019044
+      PC Computer - Hollow Knight - Aspid Hunter_12: 1164408107
+      PC Computer - Hollow Knight - Aspid Hunter_13: -365333458
+      PC Computer - Hollow Knight - Aspid Hunter_14: 1306499060
+      PC Computer - Hollow Knight - Aspid Hunter_15: 1713149255
+      PC Computer - Hollow Knight - Aspid Hunter_16: -998153779
+      PC Computer - Hollow Knight - Aspid Hunter_17: 1860040999
+      PC Computer - Hollow Knight - Aspid Hunter_18: 1210222299
+      PC Computer - Hollow Knight - Aspid Hunter_19: 1847326292
+      PC Computer - Hollow Knight - Aspid Hunter_2: 127844653
+      PC Computer - Hollow Knight - Aspid Hunter_20: -371299217
+      PC Computer - Hollow Knight - Aspid Hunter_21: 1710580042
+      PC Computer - Hollow Knight - Aspid Hunter_22: 369176103
+      PC Computer - Hollow Knight - Aspid Hunter_23: -402856797
+      PC Computer - Hollow Knight - Aspid Hunter_24: 252289282
+      PC Computer - Hollow Knight - Aspid Hunter_25: 1321180215
+      PC Computer - Hollow Knight - Aspid Hunter_26: 541004021
+      PC Computer - Hollow Knight - Aspid Hunter_27: -1874904797
+      PC Computer - Hollow Knight - Aspid Hunter_28: 2139086437
+      PC Computer - Hollow Knight - Aspid Hunter_29: -94986015
+      PC Computer - Hollow Knight - Aspid Hunter_3: -1596162711
+      PC Computer - Hollow Knight - Aspid Hunter_4: -451856559
+      PC Computer - Hollow Knight - Aspid Hunter_5: 90416139
+      PC Computer - Hollow Knight - Aspid Hunter_6: 896664176
+      PC Computer - Hollow Knight - Aspid Hunter_7: 1295463065
+      PC Computer - Hollow Knight - Aspid Hunter_8: 2071083648
+      PC Computer - Hollow Knight - Aspid Hunter_9: 27486120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

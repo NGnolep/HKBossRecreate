@@ -6,6 +6,12 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement Instance { get; private set; }
+
+    void Awake()
+    {
+        Instance = this;
+    }
     public float moveSpeed = 8f;
     public float jumpForce = 16f;
     public Transform groundCheck;
@@ -33,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
     private bool canJump = true;
     public float jumpCooldown = 2.5f;
     public bool canMove = true;
-
+    public float pogoForce = 8f;
     private bool isTouchingWall;
     void Start()
     {
@@ -168,5 +174,12 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(attackCooldown);
         isAttacking = false;
     }
-
+    public void Pogo()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, pogoForce);
+    }
+    public bool IsGrounded()
+    {
+        return isGrounded;
+    }
 }

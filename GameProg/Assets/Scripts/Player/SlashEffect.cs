@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class SlashEffect : MonoBehaviour
 {
-    //public int damage = 1;
-    //public float lifetime = 0.05f;
+        public bool isDownwardSlash = false;
 
-    void Start()
-    {
-        //Destroy(gameObject, lifetime);
-    }
-
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        //if (col.CompareTag("Enemy"))
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-            //col.GetComponent<EnemyHealth>()?.TakeDamage(damage);
+            if (collision.TryGetComponent<EnemyHurtBox>(out var enemy))
+            {
+                enemy.TakeDamage(1);
+
+                if (isDownwardSlash && PlayerMovement.Instance != null && !PlayerMovement.Instance.IsGrounded())
+                {
+                    PlayerMovement.Instance.Pogo();
+                }
+            }
         }
-    }
 }
