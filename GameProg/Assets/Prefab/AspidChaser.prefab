@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aspid: {fileID: 0}
-  hp: 2
+  hp: 1
   knockbackForce: 15
   knockbackDuration: 0.1
 --- !u!1 &8921928636541767327

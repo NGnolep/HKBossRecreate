@@ -124,6 +124,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isAttacking = true;
         animator.SetTrigger("Attack");
+        SFXManager.Instance.PlayPlayerSwing();
         Vector2 inputDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         GameObject slashToSpawn = slashRight;
         Transform slashPoint = slashPointRight;

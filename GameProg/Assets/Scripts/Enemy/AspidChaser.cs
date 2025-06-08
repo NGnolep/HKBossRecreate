@@ -62,6 +62,12 @@ public class AspidChaser : MonoBehaviour
         isDead = true;
         rb.velocity = Vector2.zero;
         animator.SetTrigger("Die");
-        Destroy(gameObject, 0.5f); // Adjust if animation is longer
+        SFXManager.Instance.PlayEnemyDeath();
+        Destroy(gameObject, 0.5f);
+        Death deathManager = FindObjectOfType<Death>();
+        if (deathManager != null)
+        {
+            deathManager.playerScore += 300;
+        }
     }
 }

@@ -114,6 +114,12 @@ public class Aspid : MonoBehaviour
         isDead = true;
         rb.velocity = Vector2.zero;
         animator.SetTrigger("Die");
+        SFXManager.Instance.PlayEnemyDeath();
         Destroy(gameObject, 0.5f);
+        Death deathManager = FindObjectOfType<Death>();
+        if (deathManager != null)
+        {
+            deathManager.playerScore += 500;
+        }
     }
 }

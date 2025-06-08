@@ -20,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isInvincible) return;
 
+        SFXManager.Instance.PlayPlayerDamage();
         currentHP -= amount;
         Debug.Log("Player took damage. HP: " + currentHP);
 
@@ -55,7 +56,8 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Player Died");
         animator.SetTrigger("Die");
-        StartCoroutine(WaitAndDestroy(0.5f));
+        SFXManager.Instance.PlayPlayerDeath();
+        FindObjectOfType<Death>().ShowDeathScreen(FindObjectOfType<Death>().playerScore);
         // Add death animation or reload scene
     }
     IEnumerator WaitAndDestroy(float delay)
