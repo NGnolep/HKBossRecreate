@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BGMManager : MonoBehaviour
 {
@@ -25,6 +26,28 @@ public class BGMManager : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Game")
+        {
+            PlayMusic(defaultBGM);
+        }
+        else
+        {
+            StopMusic();
+        }
+    }
+
     void Start()
     {
         PlayMusic(defaultBGM);
@@ -40,6 +63,17 @@ public class BGMManager : MonoBehaviour
         }
 
         currentFade = StartCoroutine(FadeToNewMusic(newClip));
+    }
+
+    public void StopMusic()
+    {
+        if (currentFade != null)
+        {
+            StopCoroutine(currentFade);
+            currentFade = null;
+        }
+        audioSource.Stop();
+        audioSource.clip = null;
     }
 
     private IEnumerator FadeToNewMusic(AudioClip newClip)

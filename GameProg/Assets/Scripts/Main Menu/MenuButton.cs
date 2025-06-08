@@ -15,7 +15,12 @@ public class MenuButton : MonoBehaviour
     {
         Application.Quit();
     }
-   
+
+    public void ResetPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();  
+        PlayerPrefs.Save();        
+    }
     void Start()
     {
         int highScore = PlayerPrefs.GetInt("HighScore", 0);

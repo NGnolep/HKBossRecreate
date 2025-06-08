@@ -58,6 +58,7 @@ public class PlayerHealth : MonoBehaviour
         animator.SetTrigger("Die");
         SFXManager.Instance.PlayPlayerDeath();
         FindObjectOfType<Death>().ShowDeathScreen(FindObjectOfType<Death>().playerScore);
+        BGMManager.Instance.StopMusic();
         // Add death animation or reload scene
     }
     IEnumerator WaitAndDestroy(float delay)
